@@ -1,0 +1,158 @@
+.bgimg {
+  position: relative;
+  opacity: .7;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+#bgimg-1 {
+  background-image: url("imgs/islands.jpg");
+  min-height: 100vh;
+}
+
+#bgimg-2 {
+  background-image: url("imgs/ocean.jpg");
+  min-height: 100vh;
+}
+
+#bgimg-3 {
+  background-image: url("imgs/stride.jpg");
+  min-height: 100vh;
+}
+
+#bgimg-4 {
+  background-color: #778899;
+  min-height: 100vh;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  padding: 14px;
+  background-color: #D3D3D3;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #778899;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+}
+
+.nav-bar-container {
+  border-style: solid;
+  border-color: #708090;
+  border-width: 4px;
+  background-color: #D3D3D3;
+  text-align: center;
+  min-height: 80px;
+}
+
+.nav-bar {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Don't change navbar layout*/
+
+.nav-bar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 26px;
+  width: 20.85%;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #778899;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+a:hover {
+  background-color: #C0C0C0
+}
+
+.content {
+  padding: 50px;
+
+}
+
+.content {
+  text-align: center;
+  background-color: #596774;
+  width: 100%;
+  min-height: 40vh;
+}
+
+@media (max-width:1279px) {
+  .nav-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 26px;
+    width: 29.07%;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #778899;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width:1040px) {
+  .nav-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 28.5px;
+    width: 26%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #778899;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    max-height: 48px;
+  }
+}
+
+@media (max-width:1024) {
+  .nav-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 28.5px;
+    width: 18.099%;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #778899;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-height: 48px;
+  }
+}
+
+@media (max-width:414px) {
+  .nav-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 32px;
+    width: 18.099%;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #778899;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-height: 48px;
+  }
+}
