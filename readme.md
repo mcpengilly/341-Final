@@ -13,3 +13,6 @@ This page is meant to showcase some of the video work that I've done, as well as
 
 ## Contact Page
 For this page I chose not to include a hero image, instead using a simple background color. I kept this page simple, only including a link to email me, and a link to my Instagram account, as those are the two best methods of getting in contact with me.
+
+## Responsive Design
+In order to make this site responsive and functional on different devices, I resized elements within my nav-bar, my images, and my captions. The hardest element to work with was the nav-bar, as it required a change to the font-size, the padding, the width, and the height. I utilized media queries to achieve this, and made small changes to each element until they all appeared in the way that I wanted. The Photography tab on my nav-bar did not resize its padding properly for reasons that I am unclear on, so I had to manually change its left and right padding in order to make it uniform with the other tabs. Unfortunately, I spent too much time focusing on the smallest viewport size, and was unable to make the site work perfectly across all viewports.

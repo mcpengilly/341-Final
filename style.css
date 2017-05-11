@@ -93,6 +93,12 @@ a:hover {
   color: #D3D3D3;
 }
 
+img {
+  border-style: solid;
+  border-width: 4px;
+  border-color: #D3D3D3;
+}
+
 @media (max-width:1279px) {
   .nav-bar a {
     float: left;
@@ -126,14 +132,14 @@ a:hover {
   }
 }
 
-@media (max-width:1024) {
+@media (max-width:1024px) {
   .nav-bar a {
     float: left;
     display: block;
     text-align: center;
-    padding: 28.5px;
-    width: 18.099%;
-    font-size: 12px;
+    padding: 24px;
+    width: 12.49%;
+    font-size: 9px;
     font-family: sans-serif;
     color: #778899;
     text-decoration: none;
@@ -141,21 +147,64 @@ a:hover {
     letter-spacing: 1px;
     max-height: 48px;
   }
+
+  .nav-bar-container {
+    min-height: 58px;
+  }
+
+  #photo-page {
+    padding-left: 6px;
+    padding-right: 38px;
+  }
+
+  .landscape {
+    width: 300px;
+    height: 200px
+  }
+
+  .portrait {
+    width: 200px;
+    height: 300px;
+  }
 }
 
 @media (max-width:414px) {
+
+  .caption {
+    font-size: 30px;
+  }
+
   .nav-bar a {
     float: left;
     display: block;
     text-align: center;
-    padding: 32px;
-    width: 18.099%;
-    font-size: 12px;
+    padding: 24px;
+    width: 12.49%;
+    font-size: 9px;
     font-family: sans-serif;
     color: #778899;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
     max-height: 48px;
+  }
+
+  .nav-bar-container {
+    min-height: 58px;
+  }
+
+  #photo-page {
+    padding-left: 6px;
+    padding-right: 38px;
+  }
+
+  .landscape {
+    width: 300px;
+    height: 200px
+  }
+
+  .portrait {
+    width: 200px;
+    height: 300px;
   }
 }
